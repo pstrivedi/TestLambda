@@ -1,0 +1,13 @@
+﻿1) Create  & deploy lambda with 
+
+dotnet lambda deploy-serverless
+
+from root of web api solution
+
+2) create ALB with 80 port allowed at Security group and Target Group of ALB
+
+3) Make target this lambda
+
+4) CHeck ALB DNS and test lambda
+
+Test: {albdns}/api/values
